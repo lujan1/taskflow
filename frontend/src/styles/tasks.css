@@ -1,0 +1,27 @@
+/* ==========================================================================
+   MÓDULO DE TARJETAS DE TAREAS (TABLERO)
+   ========================================================================== */
+
+.task-card {
+  background: #111827;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, opacity 0.3s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Estilo discreto para cuando una tarea ya está resuelta */
+.task-card.completed {
+  opacity: 0.55;
+}
+
+.task-card.completed h3 {
+  text-decoration: line-through;
+  color: #9ca3af;
+}

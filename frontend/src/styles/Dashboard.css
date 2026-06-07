@@ -1,0 +1,19 @@
+.sidebar-btn-link {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  color: var(--text-main);
+  padding: 12px 15px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.sidebar-btn-link:hover {
+  background: rgba(0, 242, 254, 0.1);
+  color: var(--accent-color);
+}

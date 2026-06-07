@@ -1,0 +1,26 @@
+/* ==========================================================================
+   ESTILOS GLOBALES Y VARIABLES BASE
+   ========================================================================== */
+
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0b1220; /* Color asfalto profundo base */
+  color: #e5e7eb;      /* Blanco tiza para no cansar la vista */
+}
+
+a {
+  color: #93c5fd;      /* Tono azul claro mate para enlaces */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #60a5fa;
+}
